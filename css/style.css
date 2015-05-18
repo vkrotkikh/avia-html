@@ -833,11 +833,12 @@ position: relative;
 	max-width: 1463px;
 	background: url("../images/shadow_wristle.png") no-repeat;
 	background-position: center 60%;
+	font-size: 0;
 }
 .list_holder{
 	display: inline-block;
 	vertical-align: middle;
-	max-width: 43%;
+	max-width: 40%;
 	padding-left: 110px;
 	margin-left: -4px;
 }
@@ -1812,6 +1813,35 @@ position: relative;
 	position: absolute;
 	right: 35px;
 	top: 35px;
+}
+/* LANDING */
+.landing_head {
+	padding-top: 80px;
+	text-align: center;
+	position: relative;
+	-webkit-box-shadow: 0 1px 1px 1px #e8e4de;
+	        box-shadow: 0 1px 1px 1px #e8e4de;
+}
+.landing_head h2{
+	font-family: 'AbelPro';
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 52px 0 46px;
+	color: #DB8918;
+}
+.landing_head p{
+	padding-bottom: 90px;
+	font-family: 'AbelPro';
+	font-size: 29px;
+	color: #DB8918;
+}
+.two_items .item{
+	width: 50%;
+	float: left;
+}
+.two_items .item img{
+	width: 100%;
+	display: block;
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 1366px){

@@ -335,8 +335,8 @@ $(document).ready(function(){
 			$('.specs_list').masonry('destroy');
 			}else{
 				var msnry = new Masonry( '.specs_list', {
-					itemSelector: '.specs_list > li',
-				});
+			itemSelector: '.specs_list > li',
+		});
 				$('.device_slider').find('.device_slide').show();
 				if ($('.device_slide').hasClass('cycle-slide')) {
 					$('.slider_images').cycle('destroy');
